@@ -9,9 +9,9 @@ int main() {
         return 1;
     }
 
-    for (int n = -3; n <= 10; ++n) {
+    for (int n = -2; n <= 20; ++n) {
         int u_n = (n >= 0) ? 1 : 0;
-        fprintf(file, "%d %d\n", n, (3 + 5 * n) * u_n);
+        fprintf(file, "%d %d\n", n, (253 - 5 * n) * u_n);
     }
 
     fclose(file);
